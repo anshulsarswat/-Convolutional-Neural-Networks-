@@ -17,6 +17,9 @@ Dataset
 
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images.
 
+## Sample image from Dataset
+![image](https://github.com/user-attachments/assets/0ae2b222-13ff-4e70-9a9d-7ca8ef5cbc03)
+
 
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
@@ -34,10 +37,12 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
 ## Model Architecture
-![image](https://github.com/user-attachments/assets/73f96516-ca82-46ad-85cb-b1568d6496fc)
+![image](https://github.com/user-attachments/assets/2431ed5c-4506-41e6-b967-ae514a7d86f3)
+
 
 ## Model Evaluation
-![image](https://github.com/user-attachments/assets/fec5cb01-8bcf-451e-83d7-c40bffdb8dab)
+![image](https://github.com/user-attachments/assets/7c2a4120-5d74-4f41-b3c8-c3674e9992a9)
+
 
 
 
